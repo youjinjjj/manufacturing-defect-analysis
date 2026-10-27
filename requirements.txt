@@ -1,0 +1,12 @@
+# Direct dependencies used by the original notebooks; this is not an environment lockfile.
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+xgboost
+ipython
+jupyterlab
+nbconvert
+ipykernel
