@@ -1,0 +1,11 @@
+{
+  "validated_on": "2026-10-28",
+  "python": "3.13.2",
+  "executed_notebooks": 3,
+  "preprocessing_candidates": 7,
+  "classifiers": 8,
+  "cv_folds": 5,
+  "seed": 42,
+  "positive_label": "defect",
+  "train_only_preprocessing": true
+}

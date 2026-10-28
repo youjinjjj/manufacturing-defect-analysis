@@ -1,0 +1,55 @@
+{
+  "positive_class": "defect (N)",
+  "seed": 42,
+  "folds": 5,
+  "rows": 7996,
+  "train_rows": 6396,
+  "test_rows": 1600,
+  "defects_train": 57,
+  "defects_test": 14,
+  "best_scaling": "robust",
+  "best_classifier": "Random forest",
+  "accuracy": 0.991875,
+  "precision": 0.5555555555555556,
+  "recall": 0.35714285714285715,
+  "f1": 0.43478260869565216,
+  "roc_auc": 0.9655017114033507,
+  "average_precision": 0.4329551497229671,
+  "confusion_matrix": [
+    [
+      1582,
+      4
+    ],
+    [
+      9,
+      5
+    ]
+  ],
+  "report": {
+    "normal": {
+      "precision": 0.994343180389692,
+      "recall": 0.9974779319041615,
+      "f1-score": 0.9959080893925086,
+      "support": 1586.0
+    },
+    "defect": {
+      "precision": 0.5555555555555556,
+      "recall": 0.35714285714285715,
+      "f1-score": 0.43478260869565216,
+      "support": 14.0
+    },
+    "accuracy": 0.991875,
+    "macro avg": {
+      "precision": 0.7749493679726238,
+      "recall": 0.6773103945235093,
+      "f1-score": 0.7153453490440804,
+      "support": 1600.0
+    },
+    "weighted avg": {
+      "precision": 0.9905037886723934,
+      "recall": 0.991875,
+      "f1-score": 0.9909982414364111,
+      "support": 1600.0
+    }
+  }
+}
